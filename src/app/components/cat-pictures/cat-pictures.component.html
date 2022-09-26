@@ -1,0 +1,15 @@
+<a [routerLink]="['']"> ◄ Return to facts </a>
+<div class="wrapper">
+  <button (click)="getCatPicture()">Get new cat</button>
+  <div *ngIf="randomCatPhoto$ | async as catPhoto; else loader">
+    <img src="{{ catPhoto.url }}" alt="Random cat photography" />
+  </div>
+  <ng-template #loader>
+    <div class="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </ng-template>
+</div>

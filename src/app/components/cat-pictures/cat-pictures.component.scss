@@ -1,0 +1,34 @@
+@import "../../../assets/mixins.scss";
+
+a {
+  margin: 1rem 2rem;
+  display: inline-block;
+  @include basic-link;
+  svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  button {
+    @include basic-button;
+    margin-bottom: 2rem;
+  }
+
+  div {
+    width: 20rem;
+    height: 20rem;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.loader {
+  @include loader;
+}

@@ -1,0 +1,12 @@
+div {
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 2rem));
+  gap: 1.5rem;
+  margin: 1rem;
+  p {
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px dashed #222;
+    border-radius: 4px;
+  }
+}
