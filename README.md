@@ -1,6 +1,6 @@
 # Catfacts
 
-This test project was generated to demonstrate random facts about cats and my programming abilities.
+This test project was generated to demonstrate random facts about cats and my programming skills.
 
 ## Tools
 
